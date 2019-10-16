@@ -1,0 +1,1003 @@
+@font-face {
+  font-family: "Lifehack Basic";
+  font-weight: 400;
+  font-style: normal;
+  src: url("../fonts/lifehackbasic.woff") format("woff");
+  font-display: fallback;
+}
+
+@font-face {
+  font-family: "Montserrat";
+  font-weight: 400;
+  font-style: normal;
+  src: url("../fonts/montserratregular.woff") format("woff");
+  font-display: fallback;
+}
+
+@font-face {
+  font-family: "Montserrat";
+  font-weight: 500;
+  font-style: normal;
+  src: url("../fonts/montserratmedium.woff") format("woff");
+  font-display: fallback;
+}
+
+@font-face {
+  font-family: "Montserrat";
+  font-weight: 700;
+  font-style: normal;
+  src: url("../fonts/montserratbold.woff") format("woff");
+  font-display: fallback;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+html {
+  box-sizing: border-box;
+}
+
+body {
+  color: #000000;
+  font-family: "Montserrat", "Arial", sans-serif;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1.2;
+}
+
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+
+.container {
+  padding: 0;
+}
+
+.header {
+  min-height: 976px;
+  margin-bottom: 5px;
+  position: relative;
+}
+
+.header__background {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.header__top {
+  min-height: 100px;
+  padding: 40px 0;
+}
+
+.header__info {
+  display: flex;
+  align-items: center;
+}
+
+.header__info a {
+  margin-right: 22px;
+}
+
+.header__info p {
+  color: #ffffff;
+  font-family: "Montserrat", "Arial", sans-serif;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 1.2;
+  margin-bottom: 0;
+}
+
+.header__contacts {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.header__contacts a {
+  color: #553517;
+  font-family: "Montserrat", "Arial", sans-serif;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 1.2;
+}
+
+.header__contacts p {
+  color: #553517;
+  font-family: "Montserrat", "Arial", sans-serif;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 1.2;
+  margin-bottom: 0;
+}
+
+.header__title h1 {
+  color: #ffffff;
+  font-family: "Lifehack Basic", "Arial", sans-serif;
+  font-size: 80px;
+  font-weight: 400;
+  line-height: 1.2;
+  margin-bottom: 20px;
+}
+
+.header__title p {
+  color: #ffffff;
+  font-family: "Montserrat", "Arial", sans-serif;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 1.2;
+  margin-bottom: 80px;
+}
+
+.header__title a {
+  width: 332px;
+  color: #ffffff;
+  font-family: "Montserrat", "Arial", sans-serif;
+  font-size: 16px;
+  line-height: 1.2;
+  font-weight: 700;
+  border-radius: 30px;
+  background-color: #ff4b23;
+  text-align: center;
+  padding: 20px;
+  display: block;
+  text-decoration: none;
+}
+
+.header__title a:hover,
+.header__title a:focus {
+  background-color: #ff5d38;
+}
+
+.header__title a:active {
+  background-color: #e5431f;
+}
+
+.header__image {
+  margin-top: 80px;
+}
+
+.header__image img {
+  width: 100%;
+  padding-left: 15px;
+}
+
+.promo {
+  padding-bottom: 100px;
+}
+
+.promo__item {
+  display: flex;
+  flex-direction: column;
+}
+
+.promo__icon {
+  width: 160px;
+  min-height: 160px;
+  background-color: rgba(255, 144, 37, 0.5);
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  align-self: center;
+  position: relative;
+  margin-bottom: 30px;
+}
+
+.promo__icon::before {
+  content: "";
+  position: absolute;
+  top: 15px;
+  width: 130px;
+  min-height: 130px;
+  background-color: #ff9025;
+  border-radius: 50%;
+}
+
+.promo__icon svg {
+  z-index: 1;
+}
+
+.promo__item p {
+  color: #272727;
+  font-family: "Montserrat", "Arial", sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.2;
+  text-align: center;
+  padding: 0 10px;
+  margin-bottom: 0;
+}
+
+.assortment {
+  margin-bottom: 100px;
+}
+
+.assortment h2 {
+  color: #272727;
+  font-family: "Lifehack Basic", "Arial", sans-serif;
+  font-size: 48px;
+  font-weight: 400;
+  line-height: 1.2;
+  text-align: center;
+  margin-bottom: 100px;
+}
+
+.assortment__tabs {
+  margin-bottom: 20px;
+}
+
+.assortment__tab a {
+  color: #a4a4a4;
+  font-family: "Montserrat", "Arial", sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.2;
+  text-align: center;
+  margin-bottom: 0;
+  text-decoration: none;
+  display: block;
+}
+
+.assortment__line {
+  height: 3px;
+  border-radius: 2px;
+  background-color: #f2f2f2;
+  position: relative;
+  margin-bottom: 60px;
+}
+
+.assortment__line span {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 50%;
+  height: 3px;
+  border-radius: 2px;
+  background-color: #ff9025;
+}
+
+.assortment__items {
+  justify-content: space-between;
+  margin-bottom: 80px;
+}
+
+.assortment__item {
+  max-width: 310px;
+  min-height: 390px;
+  box-shadow: 0 6px 18px rgba(0, 0, 0, 0.15);
+  border-radius: 8px;
+  background-color: #ffffff;
+  margin-bottom: 30px;
+  padding: 40px 50px 50px 50px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  position: relative;
+  overflow: hidden;
+}
+
+.assortment__item::before {
+  content: "";
+  min-height: 390px;
+  border-radius: 8px;
+  position: absolute;
+  top: 390px;
+  left: 0;
+  background-image: linear-gradient(180deg, rgba(255, 141, 36, 0.9) 0%, rgba(255, 75, 35, 0.9) 100%);
+  width: 100%;
+  transition: 0.5s ease-in-out;
+}
+
+.assortment__item:hover::before,
+.assortment__item:focus::before {
+  content: "";
+  min-height: 390px;
+  border-radius: 8px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-image: linear-gradient(180deg, rgba(255, 141, 36, 0.9) 0%, rgba(255, 75, 35, 0.9) 100%);
+  width: 100%;
+  transition: 0.5s ease-in-out;
+}
+
+.assortment__item img {
+  margin-bottom: 30px;
+  width: 199px;
+  min-height: 190px;
+}
+
+.assortment__item h3 {
+  color: #272727;
+  font-family: "Montserrat", "Arial", sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.2;
+  text-align: center;
+  margin-bottom: 15px;
+}
+
+.assortment__item p {
+  color: #272727;
+  font-family: "Montserrat", "Arial", sans-serif;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 1.2;
+  text-align: center;
+  margin-bottom: 0;
+}
+
+.assortment__info {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  min-height: 390px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  cursor: default;
+  opacity: 0;
+  transition: 0.5s ease-in-out;
+}
+
+.assortment__info svg {
+  margin-bottom: 15px;
+}
+
+.assortment__info p {
+  width: 192px;
+  height: 44px;
+  color: #ffffff;
+  font-family: "Montserrat", "Arial", sans-serif;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 1.2;
+  margin-bottom: 25px;
+}
+
+.assortment__info a {
+  color: #ffffff;
+  font-family: "Montserrat", "Arial", sans-serif;
+  font-size: 16px;
+  font-weight: 700;
+  text-decoration: underline;
+  line-height: 1.2;
+}
+
+.assortment__item:hover .assortment__info,
+.assortment__item:focus .assortment__info {
+  opacity: 1;
+  transition: 0.5s ease-in-out;
+}
+
+.assortment__list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.assortment__list-item {
+  margin-right: 15px;
+}
+
+.assortment__list-item a {
+  width: 44px;
+  min-height: 44px;
+  background-color: #f2f2f2;
+  color: #a4a4a4;
+  font-family: "Montserrat", "Arial", sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.2;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  text-decoration: none;
+}
+
+.assortment__list-item--active a {
+  background-color: #ff9025;
+  color: #ffffff;
+  pointer-events: none;
+}
+
+.assortment__list-item a:hover,
+.assortment__list-item a:focus {
+  background-color: #d9d9d9;
+  color: #939393;
+}
+
+.assortment__list-item a:active {
+  background-color: #c1c1c1;
+  color: #838383;
+}
+
+.production {
+  margin-bottom: 100px;
+}
+
+.production h2 {
+  color: #272727;
+  font-family: "Lifehack Basic", "Arial", sans-serif;
+  font-size: 48px;
+  font-weight: 400;
+  line-height: 1.2;
+  text-align: center;
+  margin-bottom: 80px;
+}
+
+.production .video {
+  max-width: 1102px;
+  min-height: 620px;
+  border-radius: 8px;
+  background-color: #272727;
+  margin: 0 auto;
+  position: relative;
+}
+
+.video iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  min-height: 100%;
+  border-radius: 8px;
+  box-shadow: 0 0 0 30px #ffffff;
+}
+
+.specialists {
+  margin-bottom: 100px;
+}
+
+.specialists h2 {
+  color: #272727;
+  font-family: "Lifehack Basic", "Arial", sans-serif;
+  font-size: 48px;
+  font-weight: 400;
+  line-height: 1.2;
+  text-align: center;
+  margin-bottom: 80px;
+}
+
+.specialists__item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.specialists__item img {
+  width: 160px;
+  min-height: 160px;
+  margin-bottom: 30px;
+  border-radius: 50%;
+}
+
+.specialists__item h3 {
+  color: #272727;
+  font-family: "Montserrat", "Arial", sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.2;
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+.specialists__item p {
+  color: #a4a4a4;
+  font-family: "Montserrat", "Arial", sans-serif;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 1.2;
+  margin-bottom: 10px;
+}
+
+.specialists__item a {
+  color: #272727;
+  font-family: "Montserrat", "Arial", sans-serif;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 1.2;
+}
+
+.partners {
+  margin-bottom: 100px;
+}
+
+.partners h2 {
+  color: #272727;
+  font-family: "Lifehack Basic", "Arial", sans-serif;
+  font-size: 48px;
+  font-weight: 400;
+  line-height: 1.2;
+  text-align: center;
+  margin-bottom: 80px;
+}
+
+.partners__item {
+  display: flex;
+  align-items: center;
+}
+
+.partners__item img {
+  width: 100%;
+  border-radius: 8px;
+}
+
+.features {
+  margin-bottom: 100px;
+}
+
+.features h2 {
+  color: #272727;
+  font-family: "Lifehack Basic", "Arial", sans-serif;
+  font-size: 48px;
+  font-weight: 400;
+  line-height: 1.2;
+  text-align: center;
+  margin-bottom: 100px;
+}
+
+.features__item {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  background-color: #ffffff;
+  border-radius: 8px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+
+.features__item svg {
+  margin-bottom: 20px;
+  min-height: 76px;
+}
+
+.features__item h3 {
+  color: #272727;
+  font-family: "Montserrat", "Arial", sans-serif;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 1.2;
+  margin-bottom: 10px;
+  min-height: 43px;
+}
+
+.features__item p {
+  color: #272727;
+  font-family: "Montserrat", "Arial", sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 1.2;
+  margin-bottom: 0;
+}
+
+.benefits {
+  margin-bottom: 100px;
+}
+
+.benefits h2 {
+  color: #272727;
+  font-family: "Lifehack Basic", "Arial", sans-serif;
+  font-size: 48px;
+  font-weight: 400;
+  line-height: 1.2;
+  text-align: center;
+  margin-bottom: 80px;
+}
+
+.benefits__items {
+  justify-content: center;
+}
+
+.benefits__item {
+  display: flex;
+  flex-direction: column;
+}
+
+.benefits__icon {
+  width: 160px;
+  min-height: 160px;
+  background-color: rgba(255, 144, 37, 0.5);
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  align-self: center;
+  position: relative;
+  margin-bottom: 30px;
+}
+
+.benefits__icon::before {
+  content: "";
+  position: absolute;
+  top: 15px;
+  width: 130px;
+  min-height: 130px;
+  background-color: #ff9025;
+  border-radius: 50%;
+}
+
+.benefits__icon svg {
+  z-index: 1;
+}
+
+.benefits p {
+  color: #272727;
+  font-family: "Montserrat", "Arial", sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.2;
+  margin-bottom: 0;
+  text-align: center;
+}
+
+.benefits__line {
+  max-height: 160px;
+  display: flex;
+  align-items: center;
+}
+
+.benefits__line svg {
+  width: 100%;
+}
+
+.companies {
+  margin-bottom: 100px;
+}
+
+.companies h2 {
+  color: #272727;
+  font-family: "Lifehack Basic", "Arial", sans-serif;
+  font-size: 48px;
+  font-weight: 400;
+  line-height: 1.2;
+  text-align: center;
+  margin-bottom: 80px;
+}
+
+.companies__items {
+  justify-content: center;
+}
+
+.companies__item {
+  margin-bottom: 80px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  min-height: 243px;
+}
+
+.companies__item img {
+  margin-bottom: 20px;
+  max-width: 273px;
+}
+
+.companies__item p {
+  color: #000000;
+  font-family: "Montserrat", "Arial", sans-serif;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 1.2;
+  text-align: center;
+  margin-bottom: 0;
+  padding: 0 50px;
+}
+
+.packaging {
+  margin-bottom: 100px;
+}
+
+.packaging h2 {
+  color: #272727;
+  font-family: "Lifehack Basic", "Arial", sans-serif;
+  font-size: 48px;
+  font-weight: 400;
+  line-height: 1.2;
+  text-align: center;
+  margin-bottom: 80px;
+}
+
+.packaging .video {
+  max-width: 1102px;
+  min-height: 620px;
+  border-radius: 8px;
+  background-color: #272727;
+  margin: 0 auto;
+  position: relative;
+}
+
+.video iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  min-height: 100%;
+  border-radius: 8px;
+  box-shadow: 0 0 0 30px #ffffff;
+}
+
+.contacts {
+  background-image: url("../img/map-image.jpg");
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+  background-size: cover;
+  min-height: 670px;
+  padding: 60px;
+  position: relative;
+  margin-bottom: 60px;
+}
+
+.contacts iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  pointer-events: none;
+}
+
+.contacts__item {
+  width: 413px;
+  min-height: 260px;
+  border-radius: 8px;
+  background-color: #ffffff;
+  opacity: 0.9;
+}
+
+.contacts__item-address {
+  padding: 50px 30px 50px 70px;
+  margin-bottom: 0;
+  min-height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.contacts__item-address p {
+  color: #000000;
+  font-family: "Montserrat", "Arial", sans-serif;
+  font-size: 18px;
+  font-weight: 500;
+  margin-bottom: 0;
+  position: relative;
+}
+
+.contacts__item-address svg {
+  position: absolute;
+  top: 5px;
+  left: -45px;
+}
+
+.contacts__item-phone {
+  color: #000000;
+  font-family: "Montserrat", "Arial", sans-serif;
+  font-size: 18px;
+  font-weight: 500;
+  display: block;
+  position: relative;
+}
+
+.contacts__item-phone:hover,
+.contacts__item-phone:focus {
+  color: #000000;
+}
+
+.contacts__item-phone:active {
+  color: #000000;
+}
+
+.contacts__item-phone svg {
+  position: absolute;
+  top: 0;
+  left: -45px;
+}
+
+.contacts__item-mail {
+  color: #000000;
+  font-family: "Montserrat", "Arial", sans-serif;
+  font-size: 18px;
+  font-weight: 500;
+  display: block;
+  position: relative;
+}
+
+.contacts__item-mail:hover,
+.contacts__item-mail:focus {
+  color: #000000;
+}
+
+.contacts__item-mail:active {
+  color: #000000;
+}
+
+.contacts__item-mail svg {
+  position: absolute;
+  top: 0;
+  left: -45px;
+}
+
+.questions {
+  margin-bottom: 90px;
+}
+
+.questions h2 {
+  max-width: 590px;
+  color: #272727;
+  font-family: "Montserrat", "Arial", sans-serif;
+  font-size: 36px;
+  font-weight: 500;
+  line-height: 1.2;
+  text-align: center;
+  margin: 0 auto;
+  margin-bottom: 60px;
+}
+
+.questions h2 a {
+  color: #272727;
+  font-family: "Montserrat", "Arial", sans-serif;
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 1.2;
+  display: block;
+}
+
+.questions h2 span {
+  font-size: 24px;
+  line-height: 1.2;
+  display: block;
+}
+
+.questions__form {
+  justify-content: center;
+}
+
+.questions__name {
+  margin-bottom: 0;
+}
+
+.questions__phone {
+  margin-bottom: 0;
+}
+
+.questions__phone input {
+  color: #a4a4a4;
+  font-family: "Montserrat", "Arial", sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.2;
+  width: 302px;
+  border-radius: 30px;
+  background-color: #f2f2f2;
+  padding: 20px;
+  border: none;
+  text-align: center;
+}
+
+.questions__name input {
+  color: #a4a4a4;
+  font-family: "Montserrat", "Arial", sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.2;
+  width: 302px;
+  border-radius: 30px;
+  background-color: #f2f2f2;
+  padding: 20px;
+  border: none;
+  text-align: center;
+}
+
+.questions__send {
+  color: #ffffff;
+  font-family: "Montserrat", "Arial", sans-serif;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 1.2;
+  text-transform: uppercase;
+  max-width: 302px;
+  border-radius: 30px;
+  background-color: #ff4b23;
+  padding: 20px;
+  border: none;
+}
+
+.questions__send:hover,
+.questions__send:focus {
+  background-color: #ff5d38;
+}
+
+.questions__send:active {
+  background-color: #e5431f;
+}
+
+.footer {
+  border-top: 1px solid #f2f2f2;
+  padding: 30px 0;
+}
+
+.footer p {
+  width: 274px;
+  height: 40px;
+  color: #a4a4a4;
+  font-family: "Montserrat", "Arial", sans-serif;
+  font-size: 14px;
+  font-weight: 500;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.footer a {
+  color: #ff4b23;
+  text-decoration: underline;
+}
+
+.side-one {
+  position: relative;
+}
+
+.side-one .side-left-background {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+}
+
+.side-one .side-one-image {
+  position: absolute;
+  bottom: 590px;
+  left: 0;
+}
+
+.side-one .side-right-background {
+  position: absolute;
+  bottom: 480px;
+  right: 0;
+}
+
+.side-two {
+  position: relative;
+}
+
+.side-two .side-right-background {
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+
+.side-two .side-two-image {
+  position: absolute;
+  bottom: 315px;
+  right: 0;
+}
+
+.side-three {
+  position: relative;
+}
+
+.side-three .side-left-background {
+  position: absolute;
+  bottom: 270px;
+  left: 0;
+}
