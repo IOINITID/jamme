@@ -46,7 +46,7 @@ body {
   font-size: 14px;
   font-style: normal;
   font-weight: 400;
-  line-height: 1.2;
+  line-height: 1.4;
 }
 
 .visually-hidden {
@@ -97,7 +97,7 @@ body {
   font-family: "Montserrat", "Arial", sans-serif;
   font-size: 14px;
   font-weight: 500;
-  line-height: 1.2;
+  line-height: 1.4;
   margin-bottom: 0;
 }
 
@@ -112,7 +112,7 @@ body {
   font-family: "Montserrat", "Arial", sans-serif;
   font-size: 16px;
   font-weight: 700;
-  line-height: 1.2;
+  line-height: 1.4;
 }
 
 .header__contacts p {
@@ -120,7 +120,7 @@ body {
   font-family: "Montserrat", "Arial", sans-serif;
   font-size: 14px;
   font-weight: 500;
-  line-height: 1.2;
+  line-height: 1.4;
   margin-bottom: 0;
 }
 
@@ -129,7 +129,7 @@ body {
   font-family: "Lifehack Basic", "Arial", sans-serif;
   font-size: 80px;
   font-weight: 400;
-  line-height: 1.2;
+  line-height: 1.4;
   margin-bottom: 20px;
 }
 
@@ -138,7 +138,7 @@ body {
   font-family: "Montserrat", "Arial", sans-serif;
   font-size: 18px;
   font-weight: 500;
-  line-height: 1.2;
+  line-height: 1.4;
   margin-bottom: 80px;
 }
 
@@ -147,7 +147,7 @@ body {
   color: #ffffff;
   font-family: "Montserrat", "Arial", sans-serif;
   font-size: 16px;
-  line-height: 1.2;
+  line-height: 1.4;
   font-weight: 700;
   border-radius: 30px;
   background-color: #ff4b23;
@@ -216,7 +216,7 @@ body {
   font-family: "Montserrat", "Arial", sans-serif;
   font-size: 16px;
   font-weight: 500;
-  line-height: 1.2;
+  line-height: 1.4;
   text-align: center;
   padding: 0 10px;
   margin-bottom: 0;
@@ -231,7 +231,7 @@ body {
   font-family: "Lifehack Basic", "Arial", sans-serif;
   font-size: 48px;
   font-weight: 400;
-  line-height: 1.2;
+  line-height: 1.4;
   text-align: center;
   margin-bottom: 100px;
 }
@@ -245,7 +245,7 @@ body {
   font-family: "Montserrat", "Arial", sans-serif;
   font-size: 16px;
   font-weight: 500;
-  line-height: 1.2;
+  line-height: 1.4;
   text-align: center;
   margin-bottom: 0;
   text-decoration: none;
@@ -282,7 +282,7 @@ body {
   border-radius: 8px;
   background-color: #ffffff;
   margin-bottom: 30px;
-  padding: 40px 50px 50px 50px;
+  padding: 40px 50px 40px 50px;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -296,7 +296,7 @@ body {
   min-height: 390px;
   border-radius: 8px;
   position: absolute;
-  top: 390px;
+  top: 380px;
   left: 0;
   background-image: linear-gradient(180deg, rgba(255, 141, 36, 0.9) 0%, rgba(255, 75, 35, 0.9) 100%);
   width: 100%;
@@ -327,7 +327,7 @@ body {
   font-family: "Montserrat", "Arial", sans-serif;
   font-size: 16px;
   font-weight: 500;
-  line-height: 1.2;
+  line-height: 1.4;
   text-align: center;
   margin-bottom: 15px;
 }
@@ -337,7 +337,7 @@ body {
   font-family: "Montserrat", "Arial", sans-serif;
   font-size: 18px;
   font-weight: 700;
-  line-height: 1.2;
+  line-height: 1.4;
   text-align: center;
   margin-bottom: 0;
 }
@@ -368,7 +368,7 @@ body {
   font-family: "Montserrat", "Arial", sans-serif;
   font-size: 18px;
   font-weight: 500;
-  line-height: 1.2;
+  line-height: 1.4;
   margin-bottom: 25px;
 }
 
@@ -378,7 +378,7 @@ body {
   font-size: 16px;
   font-weight: 700;
   text-decoration: underline;
-  line-height: 1.2;
+  line-height: 1.4;
 }
 
 .assortment__item:hover .assortment__info,
@@ -408,7 +408,7 @@ body {
   font-family: "Montserrat", "Arial", sans-serif;
   font-size: 16px;
   font-weight: 500;
-  line-height: 1.2;
+  line-height: 1.4;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -442,7 +442,7 @@ body {
   font-family: "Lifehack Basic", "Arial", sans-serif;
   font-size: 48px;
   font-weight: 400;
-  line-height: 1.2;
+  line-height: 1.4;
   text-align: center;
   margin-bottom: 80px;
 }
@@ -475,7 +475,7 @@ body {
   font-family: "Lifehack Basic", "Arial", sans-serif;
   font-size: 48px;
   font-weight: 400;
-  line-height: 1.2;
+  line-height: 1.4;
   text-align: center;
   margin-bottom: 80px;
 }
@@ -499,7 +499,7 @@ body {
   font-family: "Montserrat", "Arial", sans-serif;
   font-size: 16px;
   font-weight: 500;
-  line-height: 1.2;
+  line-height: 1.4;
   margin-bottom: 10px;
   text-align: center;
 }
@@ -509,7 +509,7 @@ body {
   font-family: "Montserrat", "Arial", sans-serif;
   font-size: 14px;
   font-weight: 500;
-  line-height: 1.2;
+  line-height: 1.4;
   margin-bottom: 10px;
 }
 
@@ -518,7 +518,7 @@ body {
   font-family: "Montserrat", "Arial", sans-serif;
   font-size: 14px;
   font-weight: 700;
-  line-height: 1.2;
+  line-height: 1.4;
 }
 
 .partners {
@@ -530,7 +530,7 @@ body {
   font-family: "Lifehack Basic", "Arial", sans-serif;
   font-size: 48px;
   font-weight: 400;
-  line-height: 1.2;
+  line-height: 1.4;
   text-align: center;
   margin-bottom: 80px;
 }
@@ -543,6 +543,7 @@ body {
 .partners__item img {
   width: 100%;
   border-radius: 8px;
+  background-color: #ffffff;
 }
 
 .features {
@@ -554,7 +555,7 @@ body {
   font-family: "Lifehack Basic", "Arial", sans-serif;
   font-size: 48px;
   font-weight: 400;
-  line-height: 1.2;
+  line-height: 1.4;
   text-align: center;
   margin-bottom: 100px;
 }
@@ -579,7 +580,7 @@ body {
   font-family: "Montserrat", "Arial", sans-serif;
   font-size: 18px;
   font-weight: 700;
-  line-height: 1.2;
+  line-height: 1.4;
   margin-bottom: 10px;
   min-height: 43px;
 }
@@ -589,7 +590,7 @@ body {
   font-family: "Montserrat", "Arial", sans-serif;
   font-size: 14px;
   font-weight: 400;
-  line-height: 1.2;
+  line-height: 1.4;
   margin-bottom: 0;
 }
 
@@ -602,7 +603,7 @@ body {
   font-family: "Lifehack Basic", "Arial", sans-serif;
   font-size: 48px;
   font-weight: 400;
-  line-height: 1.2;
+  line-height: 1.4;
   text-align: center;
   margin-bottom: 80px;
 }
@@ -648,7 +649,7 @@ body {
   font-family: "Montserrat", "Arial", sans-serif;
   font-size: 16px;
   font-weight: 500;
-  line-height: 1.2;
+  line-height: 1.4;
   margin-bottom: 0;
   text-align: center;
 }
@@ -672,7 +673,7 @@ body {
   font-family: "Lifehack Basic", "Arial", sans-serif;
   font-size: 48px;
   font-weight: 400;
-  line-height: 1.2;
+  line-height: 1.4;
   text-align: center;
   margin-bottom: 80px;
 }
@@ -700,7 +701,7 @@ body {
   font-family: "Montserrat", "Arial", sans-serif;
   font-size: 18px;
   font-weight: 500;
-  line-height: 1.2;
+  line-height: 1.4;
   text-align: center;
   margin-bottom: 0;
   padding: 0 50px;
@@ -715,7 +716,7 @@ body {
   font-family: "Lifehack Basic", "Arial", sans-serif;
   font-size: 48px;
   font-weight: 400;
-  line-height: 1.2;
+  line-height: 1.4;
   text-align: center;
   margin-bottom: 80px;
 }
@@ -849,7 +850,7 @@ body {
   font-family: "Montserrat", "Arial", sans-serif;
   font-size: 36px;
   font-weight: 500;
-  line-height: 1.2;
+  line-height: 1.4;
   text-align: center;
   margin: 0 auto;
   margin-bottom: 60px;
@@ -860,13 +861,13 @@ body {
   font-family: "Montserrat", "Arial", sans-serif;
   font-size: 36px;
   font-weight: 700;
-  line-height: 1.2;
+  line-height: 1.4;
   display: block;
 }
 
 .questions h2 span {
   font-size: 24px;
-  line-height: 1.2;
+  line-height: 1.4;
   display: block;
 }
 
@@ -887,7 +888,7 @@ body {
   font-family: "Montserrat", "Arial", sans-serif;
   font-size: 16px;
   font-weight: 500;
-  line-height: 1.2;
+  line-height: 1.4;
   width: 302px;
   border-radius: 30px;
   background-color: #f2f2f2;
@@ -901,7 +902,7 @@ body {
   font-family: "Montserrat", "Arial", sans-serif;
   font-size: 16px;
   font-weight: 500;
-  line-height: 1.2;
+  line-height: 1.4;
   width: 302px;
   border-radius: 30px;
   background-color: #f2f2f2;
@@ -915,7 +916,7 @@ body {
   font-family: "Montserrat", "Arial", sans-serif;
   font-size: 16px;
   font-weight: 700;
-  line-height: 1.2;
+  line-height: 1.4;
   text-transform: uppercase;
   max-width: 302px;
   border-radius: 30px;
