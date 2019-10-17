@@ -68,6 +68,10 @@ body {
   min-height: 976px;
   margin-bottom: 5px;
   position: relative;
+  background-image: url("../img/header-background.svg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 50% 50%;
 }
 
 .header__background {
@@ -1048,3 +1052,63 @@ body {
   top: 30px;
   right: 30px;
 }
+
+/* Extra large devices (large desktops, 1366px and up)  */
+@media (min-width: 1366px) {}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) and (max-width: 1365.98px) {
+  .header {
+    margin-bottom: 40px;
+  }
+
+  .header__title {
+    margin-bottom: 40px;
+  }
+
+  .assortment .container {
+    padding: 0 15px;
+  }
+
+  .production .video {
+    max-width: 850px;
+  }
+
+  .features__item {
+    margin-bottom: 40px;
+  }
+
+  .benefits__line {
+    display: none;
+  }
+
+  .packaging .video {
+    max-width: 850px;
+  }
+
+  .questions__form {
+    justify-content: space-around;
+  }
+
+  .questions__phone input {
+    max-width: 250px;
+  }
+
+  .questions__name input {
+    max-width: 250px;
+  }
+
+  .questions__send {
+    min-width: 250px;
+  }
+
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) and (max-width: 991.98px) {}
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) and (max-width: 767.98px) {}
+
+/* Extra small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) {}
