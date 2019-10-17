@@ -1002,3 +1002,49 @@ body {
   bottom: 270px;
   left: 0;
 }
+
+.modal-form {
+  max-width: 440px;
+  min-height: 480px;
+  position: relative;
+}
+
+.data {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 50px 40px;
+  position: relative;
+}
+
+.data h3 {
+  color: #272727;
+  font-family: "Montserrat", "Arial", sans-serif;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 1.4;
+  margin-bottom: 40px;
+  text-align: center;
+  text-transform: uppercase;
+  padding: 10px 10px 0 10px;
+}
+
+.data input {
+  color: #a4a4a4;
+  font-family: "Montserrat", "Arial", sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.4;
+  width: 333px;
+  border-radius: 30px;
+  background-color: #f2f2f2;
+  padding: 20px;
+  border: none;
+  text-align: center;
+}
+
+.close {
+  position: absolute;
+  top: 30px;
+  right: 30px;
+}

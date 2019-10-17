@@ -63,7 +63,7 @@
             <div class="col-xl-5 header__title">
               <h1>Джемы и мякгая карамель оптом от 60 рублей</h1>
               <p>Отправим пробники бесплатно</p>
-              <a href="#">Хочу получить пробники</a>
+              <a href="#" data-toggle="modal" data-target="#modal-form">Хочу получить пробники</a>
             </div>
             <div class="col-xl-7 header__image">
               <img src="img/header-image.png" alt="Изображение джема">
@@ -613,6 +613,10 @@
     </section>
     <section class="questions">
       <div class="container">
+        <video autoplay loop>
+          <!-- <img src="img/one.png" width="200px" height="200px" alt=""> -->
+          <source src="img/one.mp4" type="video/mp4">
+        </video>
         <h2>Если у Вас остались вопросы, свяжитесь с нами по телефону<br>
           <a href="tel:+79283210486">8 (928) 321 04 86</a>
           <span>или</span></h2>
@@ -633,6 +637,35 @@
       <p>2019 © Jamme Все права защищены<br> design by <a href="http://web-elitit.ru" target="_blank">ELIT-IT</a></p>
     </div>
   </footer>
+  <div class="modal" id="modal-form" tabindex="-1" role="dialog">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content modal-form">
+        <form id="form-contac-1" class="form-element" autocomplete="off" method="post">
+          <div class="data">
+            <h3>Получить пробники бесплатно</h3>
+            <label class="" for="phone-modal">
+              <input type="number" name="phone" id="phone-modal" placeholder="Введите номер" required>
+            </label>
+            <button class="bayvz send-modal" type="submit">Перезвони мне</button>
+          </div>
+          <div class="success">
+            <p>Ваша заявка отправлена.</p>
+            <button type="button" class="ok-pressed" data-dismiss="modal">Ок</button>
+          </div>
+        </form>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <svg xmlns="http://www.w3.org/2000/svg" fill="none" width="40" height="40" viewBox="0 0 40 40">
+            <defs />
+            <circle cx="20" cy="20" r="20" fill="#000" opacity=".1" />
+            <rect width="2.444" height="22" x="10.914" y="13.086" fill="#fff" rx="1.222"
+              transform="rotate(-45 10.914 13.086)" />
+            <rect width="2.444" height="22" x="26.471" y="11.358" fill="#fff" rx="1.222"
+              transform="rotate(45 26.47 11.358)" />
+          </svg>
+        </button>
+      </div>
+    </div>
+  </div>
   <script src="js/jquery.min.js"></script>
   <script src="js/jquery-ui.min.js"></script>
   <script src="js/bootstrap.bundle.min.js"></script>
