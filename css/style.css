@@ -967,6 +967,7 @@ body {
   position: absolute;
   bottom: 0;
   left: 0;
+  z-index: -1;
 }
 
 .side-one .side-one-image {
@@ -979,6 +980,7 @@ body {
   position: absolute;
   bottom: 480px;
   right: 0;
+  z-index: -1;
 }
 
 .side-two {
@@ -989,6 +991,7 @@ body {
   position: absolute;
   top: 0;
   right: 0;
+  z-index: -1;
 }
 
 .side-two .side-two-image {
@@ -1005,6 +1008,7 @@ body {
   position: absolute;
   bottom: 270px;
   left: 0;
+  z-index: -1;
 }
 
 .modal-form {
@@ -1105,10 +1109,69 @@ body {
 }
 
 /* Medium devices (tablets, 768px and up) */
-@media (min-width: 768px) and (max-width: 991.98px) {}
+@media (min-width: 768px) and (max-width: 991.98px) {
+  .header {
+    margin-bottom: 40px;
+  }
+
+  .header__title {
+    margin-bottom: 40px;
+  }
+
+  .promo__row {
+    justify-content: center;
+  }
+
+  .promo__item {
+    margin-bottom: 40px;
+  }
+
+  .assortment__items {
+    justify-content: space-around;
+  }
+
+  .production .video {
+    max-width: 600px;
+    min-height: 337px;
+  }
+
+  .specialists__item {
+    margin-bottom: 40px;
+  }
+
+  .features__item {
+    margin-bottom: 40px;
+  }
+
+  .features__item h3 {
+    min-height: 75px;
+  }
+
+  .benefits__line {
+    display: none;
+  }
+
+  .packaging .video {
+    max-width: 600px;
+    min-height: 337px;
+  }
+
+  .questions__phone {
+    margin-bottom: 40px;
+}
+
+.questions__name {
+  margin-bottom: 40px;
+}
+
+}
 
 /* Small devices (landscape phones, 576px and up) */
-@media (min-width: 576px) and (max-width: 767.98px) {}
+@media (min-width: 576px) and (max-width: 767.98px) {
+
+
+
+}
 
 /* Extra small devices (portrait phones, less than 576px) */
 @media (max-width: 575.98px) {}
