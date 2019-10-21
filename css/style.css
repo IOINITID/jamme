@@ -1412,4 +1412,31 @@ body {
   .contacts__item-address {
     padding: 20px 40px;
   }
+  .questions__phone,
+  .questions__name {
+    margin-bottom: 40px;
+  }
+
+  .questions__phone input,
+  .questions__name input {
+    width: 100%;
+  }
+
+  .questions__send {
+    width: 290px;
+  }
+
+  .contacts__item {
+    width: 100%;
+  }
+
+  .contacts__item-address p,
+  .contacts__item-phone,
+  .contacts__item-mail {
+    font-size: 14px;
+  }
+
+  .header__info {
+    margin-bottom: 40px;
+  }
 }
